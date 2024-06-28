@@ -1,0 +1,121 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background: #ffe6f2; /* light pink background */
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff99cc; /* medium pink background */
+    color: #fff; /* white text color */
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(255, 153, 204, 0.5);
+    font-size: 2rem;
+    text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff;
+}
+
+main {
+    padding: 2rem;
+}
+
+#balance, #quests, #shop, #chat {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: #ffccff; /* light purple background */
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(255, 153, 204, 0.6);
+}
+
+h1, h2, h3 {
+    color: #fff; /* white text color */
+}
+
+h2 {
+    border-bottom: 2px solid #ff99cc; /* medium pink border */
+    padding-bottom: 0.5rem;
+}
+
+footer {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+footer h3 a {
+    color: #ff99cc; /* medium pink text color */
+    text-decoration: none;
+    transition: text-shadow 0.3s ease-in-out;
+}
+
+footer h3 a:hover {
+    text-shadow: 0 0 10px #ff99cc, 0 0 20px #ff99cc, 0 0 30px #ff99cc;
+}
+
+.quest, .item, .message {
+    margin-bottom: 1.5rem;
+    background-color: #ffb3e6; /* light pink background */
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 153, 204, 0.4);
+}
+
+.quest h3, .item h3, .message p {
+    margin: 0;
+    color: #000; /* black text color */
+}
+
+.quest p, .item p {
+    margin: 0.5rem 0;
+    color: #666; /* dark gray text color */
+}
+
+.complete-quest-button, .buy-button, #send-button {
+    padding: 0.5rem 1rem;
+    background-color: #ff99cc; /* medium pink background */
+    color: #fff; /* white text color */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.complete-quest-button:hover, .buy-button:hover, #send-button:hover {
+    box-shadow: 0 0 20px #ff99cc;
+}
+
+#chat-window {
+    height: 300px;
+    overflow-y: scroll;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: #ffccff; /* light purple background */
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(255, 153, 204, 0.6);
+}
+
+.sent {
+    background-color: #ff99cc; /* medium pink background */
+    color: #fff; /* white text color */
+    text-align: right;
+}
+
+.received {
+    background-color: #ffb3e6; /* light pink background */
+    color: #000; /* black text color */
+}
+
+#chat-form {
+    display: flex;
+    align-items: center;
+}
+
+#user-input {
+    flex: 1;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffb3e6; /* light pink background */
+    color: #000; /* black text color */
+}
